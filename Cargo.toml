@@ -1,0 +1,15 @@
+[package]
+name = "primer"
+version = "0.1.0"
+authors = ["user"]
+
+[dependencies]
+time = "*"
+hyper = "*"
+rust-gmp = { git = "https://github.com/fizyk20/rust-gmp" }
+rustc-serialize = "*"
+#serde_json = "*"
+#serde_macros = "*"
+
+[profile.release]
+#debug = true
